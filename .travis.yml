@@ -15,5 +15,6 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: "givemeethereum.co"
   region: us-west-2
+  acl: public_read
 notifications:
   email: false
